@@ -13,7 +13,8 @@
         "-pedantic-errors",
         "-Werror",
         "-std=c++23",
-        "${file}",
+        // "${file}",
+        "${fileDirname}/**.cpp",
         "-o",
         "${fileDirname}/${fileBasenameNoExtension}"
       ],
