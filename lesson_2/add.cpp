@@ -1,6 +1,6 @@
 #include <iostream>
 
-int getValueFromUser() 
+int getValueFromUser()
 {
     std::cout << "Enter an integer: ";
     int input{};
@@ -11,8 +11,10 @@ int getValueFromUser()
 
 int main()
 {
-    int x { getValueFromUser() };
-    int y { getValueFromUser() };
+    int x{getValueFromUser()};
+    int y{getValueFromUser()};
 
     std::cout << x << " + " << y << " = " << x + y << '\n';
+
+    return 0;
 }
