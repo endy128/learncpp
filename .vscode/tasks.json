@@ -13,10 +13,11 @@
         "-pedantic-errors",
         "-Werror",
         "-std=c++23",
-        // "${file}",
+        // "${file}", # for a single file
         "${fileDirname}/**.cpp",
         "-o",
-        "${fileDirname}/bin/${fileBasenameNoExtension}"
+        "${fileDirname}/bin/${fileBasenameNoExtension}",
+        "-I$HOME/src/learncpp/plog/include"
       ],
       "options": {
         "cwd": "${fileDirname}"
