@@ -8,7 +8,7 @@
         "-fdiagnostics-color=always",
         "-g",
         "-ggdb",
-        "-O2",
+        // "-O2",  // removed for debugging
         "-DNDEBUG",
         "-pedantic-errors",
         "-Werror",
