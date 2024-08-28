@@ -7,7 +7,7 @@
             "request": "launch",
             "program": "${fileDirname}/bin/${fileBasenameNoExtension}",
             "args": [],
-            "stopAtEntry": true,
+            "stopAtEntry": false,  // set to false if not debugging
             "cwd": "${fileDirname}",
             "environment": [],
             "externalConsole": false,
