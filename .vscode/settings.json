@@ -2,6 +2,7 @@
     "files.associations": {
         "*.eb": "python",
         "*.patch": "diff",
+        "*.txt": "r",
         "cctype": "cpp",
         "clocale": "cpp",
         "cmath": "cpp",
@@ -68,6 +69,9 @@
         "span": "cpp",
         "sstream": "cpp",
         "stop_token": "cpp",
-        "thread": "cpp"
+        "thread": "cpp",
+        "charconv": "cpp",
+        "variant": "cpp",
+        "format": "cpp"
     }
 }
