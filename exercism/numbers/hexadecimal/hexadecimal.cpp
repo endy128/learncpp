@@ -30,6 +30,8 @@ namespace hexadecimal {
 
 } // namespace hexadecimal
 
+
+// Check out this bad boy though: https://exercism.org/tracks/cpp/exercises/hexadecimal/solutions/serpensta
 int main()
 {
     std::cout << hexadecimal::convert("1") << '\n'; // 1
